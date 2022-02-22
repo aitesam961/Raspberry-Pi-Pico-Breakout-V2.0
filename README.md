@@ -1,10 +1,11 @@
-<img src="Screenshot%202022-02-22%20154036.png" width=50% height=50%>
-# Raspberry-Pi-Pico-Breakout-V2.0
-Raspberry Pi pico Breakout Board (Rev 2.0). Features a 3.7V Battery Management System, A 5V Inuput DC jack and a QWIIC connector
-Raspberry Pi Pico Breakout Board V2.0
-Raspberry Pi Pico Breakout Board Rev2.0
-Presenting a Revised version of popular Pi Pico Breakout Board Rev 1.0 with improved performance. More features, better practicality and optimized costs.
-<img src="Screenshot%202022-02-22%20154036.png" width=50% height=50%>
+
+# Raspberry-Pi-Pico-Breakout-V2.0:
+<img src="Screenshot%202022-02-22%20154036.png" width=20% height=20%>
+Features a 3.7V Battery Management System, A 5V Inuput DC jack and a QWIIC connector
+Presenting a Revised version of popular Pi Pico Breakout Board Rev 1.0
+with improved performance. More features, better practicality and optimized costs.
+<img src="Screenshot 2022-02-22 154106.png" width=20% height=20%>
+<img src="Screenshot 2022-02-22 154120.png" width=20% height=20%>
 
 
 ## Features:
