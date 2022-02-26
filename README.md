@@ -1,12 +1,27 @@
 
 # Raspberry-Pi-Pico-Breakout-V2.0:
-<img src="Screenshot%202022-02-22%20154036.png" width=30% height=30%>
 Features a 3.7V Battery Management System, A 5V Inuput DC jack and a QWIIC connector
 Presenting a Revised version of popular Pi Pico Breakout Board Rev 1.0
 with improved performance. More features, better practicality and optimized costs.
-<img src="Screenshot 2022-02-22 154106.png" width=30% height=30%>
-<img src="Screenshot 2022-02-22 154120.png" width=30% height=30%>
 
+<p align="center">
+  <img width="200" src="Screenshot%202022-02-22%20154036.png" alt="Material Bread logo">
+  <img width="200" src="Screenshot 2022-02-22 154106.png" alt="Material Bread logo">
+</p>
+
+
+### What is Raspberry Pi Pico?
+Raspberry Pi Pico is a low-cost, high-performance microcontroller board with flexible digital interfaces.
+
+<p align="center">
+  <img width="400" src="https://images.prismic.io/rpf-products/7d247ace-afb2-4555-b7b3-4f236eb779d6_Raspberry%20Pi%20Pico%201.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=927&h=618" alt="Material Bread logo">
+</p>
+
+### Raspberry Pi Pico Pinout?
+![image](https://www.raspberrypi.com/documentation/microcontrollers/images/Pico-R3-SDK11-Pinout.svg)
+
+# What is Raspberry Pi Pico Dev-Kit V2.0?
+Pico devkit is a carrier board that hosts the Pi Pico and breaks-out its I/Os, interfaces and power circuitry. Its a handy device to get started with Rapsberry pi Pico.
 
 ## Features:
 - Raspberry Pi Pico Footprint compatible
@@ -24,7 +39,9 @@ with improved performance. More features, better practicality and optimized cost
 Introducing an interesting cut-out configuration.
 You can cut the board into two parts following the cut line mentioned. So you get two separate boards.
 
-<img src="Screenshot 2022-02-22 154154.png" width=30% height=30%>
+<p align="left">
+  <img width="100" src="Screenshot 2022-02-22 154154.png" alt="Material Bread logo">
+</p>"
 
 ## Breakout board
 You can use raspberry pi breakout board as a standalone breakout with Pinouts printed for your ease.
@@ -34,6 +51,9 @@ You can use raspberry pi breakout board as a standalone breakout with Pinouts pr
 ## Power Unit
 Power unit is your Power supply UPS just like a power bank. Capable of powering your IoT projects featuring a LiPo battery support and a DC jack
 
+<p align="center">
+<img width="200" src="Screenshot 2022-02-22 154120.png" alt="Material Bread logo">
+</p>
 
 
 ## Important Instructions:
