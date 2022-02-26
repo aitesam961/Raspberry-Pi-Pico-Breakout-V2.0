@@ -43,5 +43,10 @@ Power unit is your Power supply UPS just like a power bank. Capable of powering 
 
 ![image](https://user-images.githubusercontent.com/67455292/155122429-88162453-4a50-407b-a711-7dc221720413.png)
 
-## OPEN SOURCE Design:
+
+## Open Source design:
+<p align="left">
+  <img width="100" src="https://th.bing.com/th/id/R.4e643d6b576a9164460033bd015eb65e?rik=hoK1V%2fMvjhXwZA&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Material Bread logo">
+</p>
+All the CAD and manufacturing files are open source and available under GNU3.0
 Touting an open source hardware design which can be used and modified without any license or permission.
