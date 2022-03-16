@@ -1,5 +1,5 @@
 
-# Raspberry-Pi-Pico-Breakout-V2.0:
+# Raspberry-Pi-Pico-Breakout-V2.0:-
 Features a 3.7V Battery Management System, A 5V Inuput DC jack and a QWIIC connector
 Presenting a Revised version of popular Pi Pico Breakout Board Rev 1.0
 with improved performance. More features, better practicality and optimized costs.
