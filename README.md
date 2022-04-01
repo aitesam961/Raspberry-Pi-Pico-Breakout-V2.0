@@ -5,8 +5,12 @@ Presenting a Revised version of popular Pi Pico Breakout Board Rev 1.0
 with improved performance. More features, better practicality and optimized costs.
 
 <p align="center">
+
   <img width="200" src="Screenshot%202022-02-22%20154036.png" alt="Material Bread logo">
   <img width="200" src="Screenshot 2022-02-22 154106.png" alt="Material Bread logo">
+
+
+
 </p>
 
 
@@ -16,6 +20,7 @@ Raspberry Pi Pico is a low-cost, high-performance microcontroller board with fle
 <p align="center">
   <img width="400" src="https://images.prismic.io/rpf-products/7d247ace-afb2-4555-b7b3-4f236eb779d6_Raspberry%20Pi%20Pico%201.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=927&h=618" alt="Material Bread logo">
 </p>
+
 
 ### Raspberry Pi Pico Pinout?
 ![image](https://www.raspberrypi.com/documentation/microcontrollers/images/Pico-R3-SDK11-Pinout.svg)
