@@ -6,8 +6,8 @@ with improved performance. More features, better practicality and optimized cost
 
 <p align="center">
 
-  <img width="200" src="Screenshot%202022-02-22%20154036.png" alt="Material Bread logo">
-  <img width="200" src="Screenshot 2022-02-22 154106.png" alt="Material Bread logo">
+  <img width="200" src="Images/Screenshot 2022-02-22 154036.png" alt="3D View">
+  <img width="200" src="Images/Screenshot 2022-02-22 154404.png" alt="2D view">
 
 
 
