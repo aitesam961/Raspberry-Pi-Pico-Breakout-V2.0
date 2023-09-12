@@ -6,8 +6,8 @@ with improved performance. More features, better practicality and optimized cost
 
 <p align="center">
 
-  <img width="200" src="Images/Screenshot 2022-02-22 154036.png" alt="3D View">
-  <img width="200" src="Images/Screenshot 2022-02-22 154404.png" alt="2D view">
+  <img width="400" src="Images/Screenshot 2022-02-22 154036.png" alt="3D View">
+  <img width="400" src="Images/Screenshot 2022-02-22 154404.png" alt="2D view">
 
 
 
@@ -44,20 +44,21 @@ Pico devkit is a carrier board that hosts the Pi Pico and breaks-out its I/Os, i
 Introducing an interesting cut-out configuration.
 You can cut the board into two parts following the cut line mentioned. So you get two separate boards.
 
-<p align="left">
-  <img width="500" src="Images/Screenshot 2022-02-22 154154.png" alt="Cut Line">
+<p align="center">
+  <img width="700" src="Images/Screenshot 2022-02-22 154154.png" alt="Cut Line">
 </p>
 
 ## Breakout board
 You can use raspberry pi breakout board as a standalone breakout with Pinouts printed for your ease.
-
-<img src="Screenshot 2022-02-22 154226.png" width=20% height=20%>
+<p align="center">
+  <img width="500" src="Images/Screenshot 2022-02-22 154226.png" alt="Pin Outs">
+</p>
 
 ## Power Unit
-Power unit is your Power supply UPS just like a power bank. Capable of powering your IoT projects featuring a LiPo battery support and a DC jack
+Power unit is your Power supply UPS just like a power bank. Capable of powering your IoT projects. Featuring a LiPo battery support and a DC jack
 
 <p align="center">
-<img width="200" src="Screenshot 2022-02-22 154120.png" alt="Material Bread logo">
+<img width="200" src="Images/Screenshot 2022-02-22 154120.png" alt="DC Jack">
 </p>
 
 
