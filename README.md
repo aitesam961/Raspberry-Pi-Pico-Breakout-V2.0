@@ -45,8 +45,8 @@ Introducing an interesting cut-out configuration.
 You can cut the board into two parts following the cut line mentioned. So you get two separate boards.
 
 <p align="left">
-  <img width="100" src="Images/Screenshot 2022-02-22 154154.png" alt="Cut Line">
-</p>"
+  <img width="500" src="Images/Screenshot 2022-02-22 154154.png" alt="Cut Line">
+</p>
 
 ## Breakout board
 You can use raspberry pi breakout board as a standalone breakout with Pinouts printed for your ease.
