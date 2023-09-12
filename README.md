@@ -66,10 +66,6 @@ Power unit is your Power supply UPS just like a power bank. Capable of powering 
 - Use a QC qualified 3.7-4.2V  LiPo battery
 - Battery Capacity is 1Ah-5Ah
 - Charging current for LiPo is 500mA
-  
-<p align="center">
-<img width="700" src="[Images/Screenshot 2022-02-22 154120.png](https://user-images.githubusercontent.com/67455292/155122429-88162453-4a50-407b-a711-7dc221720413.png)" alt="DC Jack">
-</p>
 
 ## Open Source design:
 <p align="center">
