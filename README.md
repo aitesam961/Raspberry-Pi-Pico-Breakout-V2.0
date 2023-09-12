@@ -58,7 +58,7 @@ You can use raspberry pi breakout board as a standalone breakout with Pinouts pr
 Power unit is your Power supply UPS just like a power bank. Capable of powering your IoT projects. Featuring a LiPo battery support and a DC jack
 
 <p align="center">
-<img width="200" src="Images/Screenshot 2022-02-22 154120.png" alt="DC Jack">
+<img width="700" src="Images/Screenshot 2022-02-22 154120.png" alt="DC Jack">
 </p>
 
 
@@ -66,12 +66,13 @@ Power unit is your Power supply UPS just like a power bank. Capable of powering 
 - Use a QC qualified 3.7-4.2V  LiPo battery
 - Battery Capacity is 1Ah-5Ah
 - Charging current for LiPo is 500mA
-
-![image](https://user-images.githubusercontent.com/67455292/155122429-88162453-4a50-407b-a711-7dc221720413.png)
-
+  
+<p align="center">
+<img width="700" src="[Images/Screenshot 2022-02-22 154120.png](https://user-images.githubusercontent.com/67455292/155122429-88162453-4a50-407b-a711-7dc221720413.png)" alt="DC Jack">
+</p>
 
 ## Open Source design:
-<p align="left">
+<p align="center">
   <img width="100" src="https://th.bing.com/th/id/R.4e643d6b576a9164460033bd015eb65e?rik=hoK1V%2fMvjhXwZA&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Material Bread logo">
 </p>
 All the CAD and manufacturing files are open source and available under GNU3.0
