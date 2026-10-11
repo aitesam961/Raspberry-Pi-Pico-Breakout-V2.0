@@ -1,95 +1,70 @@
+# Raspberry Pi Pico Breakout — Revision 2.0
 
-# Raspberry-Pi-Pico-Breakout-V2.0:-
-Features a 3.7V Battery Management System, A 5V Inuput DC jack and a QWIIC connector
-Presenting a Revised version of popular Pi Pico Breakout Board Rev 1.0
-with improved performance. More features, better practicality and optimized costs.
+A Raspberry Pi Pico carrier board with labeled GPIO breakouts, a 3.7 V LiPo battery power section, a 5 V DC barrel-jack input, and a Qwiic-compatible connector.
 
-<p align="center">
-
-  <img width="400" src="Images/Screenshot 2022-02-22 154036.png" alt="3D View">
-  <img width="400" src="Images/Screenshot 2022-02-22 154404.png" alt="2D view">
-
-
-
-</p>
-
-
-### What is Raspberry Pi Pico?
-Raspberry Pi Pico is a low-cost, high-performance microcontroller board with flexible digital interfaces.
+The board can be separated along the marked cut line into a Pico breakout and a standalone power section.
 
 <p align="center">
-  <img width="400" src="https://images.prismic.io/rpf-products/7d247ace-afb2-4555-b7b3-4f236eb779d6_Raspberry%20Pi%20Pico%201.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=927&h=618" alt="Material Bread logo">
+  <img width="400" src="Images/Screenshot%202022-02-22%20154036.png" alt="Revision 2.0 board render">
+  <img width="400" src="Images/Screenshot%202022-02-22%20154404.png" alt="Revision 2.0 PCB layout">
 </p>
 
+## Features
 
-### Raspberry Pi Pico Pinout?
-![image](https://www.raspberrypi.com/documentation/microcontrollers/images/Pico-R3-SDK11-Pinout.svg)
+- Raspberry Pi Pico footprint with 2.54 mm header breakouts.
+- Pin labels printed on the board.
+- LiPo battery support and onboard charging circuitry.
+- 5 V DC barrel-jack input and power-mode slide switch.
+- Charging and power-mode indicator LEDs.
+- Qwiic-compatible bus connector.
+- Separable breakout and power sections.
 
-# What is Raspberry Pi Pico Dev-Kit V2.0?
-Pico devkit is a carrier board that hosts the Pi Pico and breaks-out its I/Os, interfaces and power circuitry. Its a handy device to get started with Rapsberry pi Pico.
+## Two board sections
 
-## Features:
-- Raspberry Pi Pico Footprint compatible
-- 2.54mm Pitch Header breakouts
-- Pi Pico pinouts printed on the board for added practicality
-- 3.7V LiPo battery compatible (Upto 5000mAh)
-- DC barrel jack for 5V supply through Power adapter
-- Slide switch (DIP) for power mode selection
-- Charging LED indication
-- Power mode LED indication
-- QWIIC Bus compatible
-- Compact design
+The marked cut line separates the GPIO breakout from the power unit. Review the PCB connections before separating the board so you can identify the connections needed for each section's intended use.
 
-## What's Special:
-Introducing an interesting cut-out configuration.
-You can cut the board into two parts following the cut line mentioned. So you get two separate boards.
+![Board separation line](Images/Screenshot%202022-02-22%20154154.png)
 
-<p align="center">
-  <img width="700" src="Images/Screenshot 2022-02-22 154154.png" alt="Cut Line">
-</p>
+| Pico breakout | Power section |
+| --- | --- |
+| ![Pico pin labels](Images/Screenshot%202022-02-22%20154226.png) | ![Power section and DC jack](Images/Screenshot%202022-02-22%20154120.png) |
 
-## Breakout board
-You can use raspberry pi breakout board as a standalone breakout with Pinouts printed for your ease.
-<p align="center">
-  <img width="500" src="Images/Screenshot 2022-02-22 154226.png" alt="Pin Outs">
-</p>
+## Power specifications
 
-## Power Unit
-Power unit is your Power supply UPS just like a power bank. Capable of powering your IoT projects. Featuring a LiPo battery support and a DC jack
+The original project documentation specifies:
 
-<p align="center">
-<img width="700" src="Images/Screenshot 2022-02-22 154120.png" alt="DC Jack">
-</p>
+| Parameter | Documented value |
+| --- | --- |
+| DC jack input | 5 V |
+| Battery | 3.7 V nominal LiPo, up to 4.2 V charged |
+| Battery capacity | 1–5 Ah |
+| Charging current | 500 mA |
 
+Check these values against the schematic and fitted components when building a modified revision.
 
-## Important Instructions:
-- Use a QC qualified 3.7-4.2V  LiPo battery
-- Battery Capacity is 1Ah-5Ah
-- Charging current for LiPo is 500mA
+## Design and manufacturing files
 
-## Open Source design:
-<p align="center">
-  <img width="100" src="https://th.bing.com/th/id/R.4e643d6b576a9164460033bd015eb65e?rik=hoK1V%2fMvjhXwZA&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Material Bread logo">
-</p>
-All the CAD and manufacturing files are open source and available under GNU3.0
-Touting an open source hardware design which can be used and modified without any license or permission.
+| Location | Contents |
+| --- | --- |
+| [Source-Files](Source-Files/) | EasyEDA schematic and PCB JSON sources |
+| [Schematic PDF](docs/Schematic_Raspberry%20Pi%20Pico%20Breakout%20v2.0_2021-07-02.pdf) | Circuit reference without a CAD editor |
+| [Manufacturing-Files](Manufacturing-Files/) | Gerber ZIP, bill of materials, and pick-and-place data |
+| [3D-Files](3D-Files/) | OBJ model archive |
+| [Images](Images/) | Board renders and layout screenshots |
 
+## Getting started
 
-## Contributions
+1. Review the schematic PDF and board images to identify the power connections and GPIO headers.
+2. Open the schematic and PCB JSON files in EasyEDA using its workflow for EasyEDA source files.
+3. Compare the BOM, footprints, and connector orientation with the parts you plan to fit.
+4. Use the supplied manufacturing exports for the matching design revision, or regenerate all exports after editing the source.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+This repository contains hardware design files; it does not include application firmware for the Pico.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+## Contributing
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+Open an issue or pull request with the affected circuit, proposed change, and any test results. Keep editable sources and manufacturing exports in sync, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-This Project and information is published under General Public License V3.0 See `LICENSE.txt` for more information.
-> https://www.gnu.org/licenses/quick-guide-gplv3.html
+GNU General Public License v3.0. See [LICENSE](LICENSE) for the license text.
